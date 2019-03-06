@@ -1,0 +1,13 @@
+.post-modal .ant-modal-body {
+    padding: 0;
+}
+
+.ant-upload.ant-upload-drag {
+    padding: 55px 0;
+    background: #fafafa;
+}
+
+.post-modal-form {
+    margin: 30px auto;
+    padding: 0 24px;
+}

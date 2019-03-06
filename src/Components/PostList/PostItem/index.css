@@ -1,0 +1,42 @@
+.card {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    border-radius: 3px;
+}
+
+.card img {
+    border-radius: 3px;
+}
+
+.overlay {
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0,0,0,.9);
+    opacity: 0;
+    transition: opacity .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.overlay img { border-radius: 4px; }
+
+.posts-list-items-delBtn {
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.overlay button { color: black; }
+
+.card:hover .overlay { opacity: 1; }

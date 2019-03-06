@@ -1,0 +1,11 @@
+.post-list-container {
+    width: 85%;
+    margin: 35px auto;
+    text-align: left;
+}
+
+.post-list-items-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+}

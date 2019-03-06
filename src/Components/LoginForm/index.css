@@ -1,0 +1,15 @@
+.login-signup-form-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 300px;
+}
+
+.login-form-button {
+    width: 100%;
+    line-height: 30px;
+}

@@ -1,0 +1,93 @@
+.hero-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #6c75e0;
+	color: white;
+}
+
+.hero-section-logo-container {
+	height: 85px;
+	margin: 100px 0;
+}
+
+.hero-section-logo-container img {
+	height: 100%;
+}
+
+.hero-section-text {
+	margin: 0 0 90px 0;
+	text-align: center;
+}
+
+.hero-section-text > h1 {
+	margin-bottom: 0;
+	font-size: 5vw;
+}
+
+.hero-section-text * {
+	color: white;
+}
+
+.hero-section-mockup img {
+	max-width: 100%;
+	height: auto;
+}
+
+.hero-section-cta {
+	margin-bottom: 90px;
+	width: 200px;
+}
+
+.howitworks-section {
+	text-align: center;
+}
+
+.howitworks-section > h1 {
+	margin-top: 200px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.howitworks-section h3 {
+	margin-top: 5px;
+}
+
+.howitworks-section-p {
+	padding: 0px 25px 10px 25px;
+}
+
+.features-section {
+	text-align: center;
+	padding: 80px 0;
+	margin: 20px 0;
+	background: white;
+}
+
+.features-section > h1 {
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+.price-section {
+	text-align: center;
+	padding: 80px 0;
+	margin: 20px 0;
+}
+
+.price-section > h1 {
+	font-weight: bold;
+}
+
+
+.price-section-pricing {
+	margin: 20px 0;
+}
+
+
+@media (min-width: 768px) {
+	.hero-section-text > h1 {
+		font-size: 46px;
+	}
+}
